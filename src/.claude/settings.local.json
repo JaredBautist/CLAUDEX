@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bun install:*)",
+      "Read(//c/Users/dylam/Desktop/**)",
+      "Bash(npx tsc:*)",
+      "Bash(bun x:*)",
+      "Bash(bun run:*)",
+      "Bash(bun add:*)",
+      "Bash(grep -rh \"from ''''\\\\.\\\\./types/\" src/)"
+    ]
+  }
+}
