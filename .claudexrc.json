@@ -1,0 +1,33 @@
+{
+  "defaultProfile": "openai",
+  "profiles": {
+    "openai": {
+      "upstreamUrl": "http://127.0.0.1:18789",
+      "provider": "openai-codex",
+      "model": "gpt-5.4",
+      "authHeader": "authorization",
+      "localOnly": true,
+      "maxBudgetUsd": 2,
+      "skillsPack": "token-lean"
+    },
+    "openai-mini": {
+      "upstreamUrl": "http://127.0.0.1:18789",
+      "provider": "openai-codex",
+      "model": "gpt-5.4-mini",
+      "authHeader": "authorization",
+      "localOnly": true,
+      "maxBudgetUsd": 2,
+      "skillsPack": "token-lean"
+    },
+    "ollama": {
+      "upstreamUrl": "http://127.0.0.1:18789",
+      "provider": "ollama",
+      "model": "qwen2.5-coder:7b",
+      "ollamaBaseUrl": "http://127.0.0.1:11434",
+      "ollamaDirect": true,
+      "authHeader": "authorization",
+      "localOnly": true,
+      "skillsPack": "token-lean"
+    }
+  }
+}
